@@ -1,3 +1,19 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://altmanea.ru/it2/"
+languageCode = "ru"
+title = "Информационные технологии (часть 2)"
+theme = "hugo-theme-techdoc"
+
+[params]
+    custom_font_color = "white"
+    custom_background_color = "blue"
+
+    lecUrl = "https://altmanea.ru/it2/slides/"
+
+    menu_style = "open-menu"
+    menu_exclusion = ["home", "archives", "blog", "entry", "post", "posts"]
+
+[markup]
+  [markup.highlight]
+    style = "github"
+  [markup.goldmark.renderer]
+      unsafe = true
