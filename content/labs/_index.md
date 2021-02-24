@@ -20,8 +20,31 @@ title: "Лабораторные"
 
 ## Задания к лабораторным работам
 
+Задание разбиты на три блока. Лабораторные каждого блока должны быть выполнены до соответствующей по номеру контрольной недели.
+
+### Блок 1. Виртуализация
+
 1. [Установка Ubuntu на виртуальную машину](vm)
 2. [Взаимодействие гостевой ОС и хоста](share)
 3. [Основы docker](docker)
 4. [Настройка ресурсов контейнеров](container)
 
+## Блок 2. Системы контроля версий
+
+### Библиографический список
+
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+- [Git - Book](https://git-scm.com/book/ru/v2)
+- [Git How To: курс обучения Git на русском](https://githowto.com/ru)
+- [Git: наглядная справка](https://marklodato.github.io/visual-git-guide/index-ru.html)
+- [Microsoft - поиск терминов](https://www.microsoft.com/ru-ru/language)
+
+### Задания
+
+5. [Основы GIT](git-basic)
+6. [Ветки в GIT](git-branch)
+7. [Слияние веток](git-merge)
+8. [Удаленные репозитории](git-remote)
+
+## Блок 3. Программные платформы
