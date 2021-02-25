@@ -9,7 +9,7 @@ theme = "hugo-theme-techdoc"
 
     lecUrl = "https://altmanea.ru/it2/slides/"
 
-    menu_style = "open-menu"
+    menu_style = "slide-menu"
     menu_exclusion = ["home", "archives", "blog", "entry", "post", "posts"]
 
 [markup]
