@@ -1,6 +1,6 @@
 ---
 title: "3. Основы docker"
-weight: 10
+weight: 30
 ---
 
 ## Введение
