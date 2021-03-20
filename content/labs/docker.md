@@ -11,6 +11,10 @@ weight: 30
 
 Прочитайте про инструментарий для установки программ [Advanced Packaging Tool](https://ru.wikipedia.org/wiki/Advanced_Packaging_Tool) и консольный интерфейс к этом инструментарию [Apt-Get](https://help.ubuntu.ru/wiki/руководство_по_ubuntu_server/управление_пакетами/apt-get).
 
+Далее, в связи с изменением инструкции по установке docker на сайте docker, будет рассмотрен способ установки, отличный от предлагаемого ранее на этой странице. Если Вы уже выполнили эту лабораторную работу с помощью старого способа, то при оформлении отчета и защиты работы можете его использовать, его описание – под спойлером. 
+
+<details>
+<summary>Первоначальный способ установки.</summary>
 В терминале виртуальной машины выполните команду, которая обновит информацию о доступных для установки программах: 
 
 ```
@@ -58,6 +62,16 @@ sudo add-apt-repository \
 ```
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+</details>
+
+Перейдите на страницу [https://download.docker.com/linux/ubuntu/dists/](https://download.docker.com/linux/ubuntu/dists/), выберите нужную версию Ubuntu, перейдите в папку ```/pool/stable```, выберите архитектуру ```amd64```, ```armhf``` или ```arm64``` и загрузите последние версии файлов ```containerd.io_𝑣𝑒𝑟𝑠𝑖𝑜𝑛.deb```, ```docker-ce-cli_𝑣𝑒𝑟𝑠𝑖𝑜𝑛.deb``` и ```docker-ce_𝑣𝑒𝑟𝑠𝑖𝑜𝑛.deb```. Для рекомендуемой ранее виртуальной машины этий файлы находятся по адресу [https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/](https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/).
+
+Установите каждый из скаченных файлов с помощью команды:
+
+```
+sudo dpkg -i 𝑝𝑎𝑐𝑘𝑎𝑔𝑒.deb
 ```
 
 Проверьте корректность установки:
