@@ -12,3 +12,4 @@ title: "Лекции"
 4. [Настройка ресурсов контейнеров](container)
 5. [Основы GIT](git-basic)
 6. [Ветки в GIT](git-branch)
+7. [Объединение веток в GIT](git-merge)
