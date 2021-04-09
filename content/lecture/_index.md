@@ -13,3 +13,4 @@ title: "Лекции"
 5. [Основы GIT](git-basic)
 6. [Ветки в GIT](git-branch)
 7. [Объединение веток в GIT](git-merge)
+8. [Удаленные ветки в GIT](git-remote)
