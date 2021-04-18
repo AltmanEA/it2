@@ -3,9 +3,10 @@ languageCode = "ru"
 title = "Информационные технологии (часть 2)"
 theme = "hugo-theme-techdoc"
 
-[params]
+[params]   
     custom_font_color = "white"
     custom_background_color = "blue"
+
 
     lecUrl = "https://altmanea.ru/it2/slides/"
 
